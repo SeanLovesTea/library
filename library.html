@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <div class="header">
+        <div class='btn-wrapper'>
+            <button class="open-form">Add Book</button>
+        </div>
+    </div>
+    
+    <div class="main">
+        <form class="modal">
+            <img src="img/alpha-x-box-outline.svg" alt="x-mark" class="exit-btn">
+
+            <label for="input-title">Title:</label>
+            <input type="text" id="input-title" name="input-title" value="">
+
+            <label for="input-author">Author:</label>
+            <input type="text" id="input-author" name="input-author" value="">
+
+            
+            <label for="input-pages">Pages:</label>
+            <input type="text" id="input-pages" name="input-pages" value="">
+            
+            <input type="checkbox" id="input-checkbox" name="input-checkbox" value="">
+            <label for="input-checkbox">Read?</label>
+            
+            <input type="button" id="submit-btn" value="Add">
+        </form>
+    </div>
+    <div class="sidebar"></div>
+</div>   
+</body>
+
+</html>
+<script src="scripts-with-class.js"></script>
